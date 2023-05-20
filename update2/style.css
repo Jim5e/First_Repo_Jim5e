@@ -1,0 +1,465 @@
+body{
+    padding:50px;
+}
+.container{
+    max-width: 600px;
+    margin:0 auto;
+    padding:50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form-group{
+    margin-bottom:30px;
+}
+
+/*-------------------------------------------*/
+
+body{
+    overflow: auto;
+  }
+  
+  *{
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+  }
+  
+  .banner{
+      width: 100%;
+      height: 100vh;
+      background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(background.jpg);
+      background-size: cover;
+      background-position: center;
+  }
+  
+  .logo{
+      color: aliceblue;
+      font-family:'Courier New', Courier, monospace;
+  }
+  
+  .navbar{
+      width: 85%;
+      margin: auto;
+      padding: 35px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  
+  .logo{
+      width: 120px;
+      cursor: pointer;
+  }
+  
+  .navbar ul li{
+      list-style: none;
+      display: inline-block;
+      margin: 0 20px;
+      position: relative;
+  }
+  
+  .navbar ul li a{
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  
+  .navbar ul li::after{
+      content: '';
+      height: 3px;
+      width: 0%;
+      background: #009688;
+      position: absolute;
+      left: 0;
+      bottom: -10;
+      transition: 0.5s;
+  }
+  
+  .navbar ul li:hover:after{
+      width: 100%;
+  }
+  
+  .content{
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      text-align: center;
+      color: #fff;
+  }
+  
+  .content1{
+      font-size: 100px;
+      margin-top: 30px;
+      border-bottom: 1px;
+  }
+  
+  .content p{
+      margin-top: 20px auto;
+      font-weight: 100;
+      line-height: 25px;
+  }
+  
+  button{
+      width: 200px;
+      padding: 15px 0;
+      text-align: center;
+      margin: 20px 10px;
+      border-radius: 25px;
+      font-weight: bold;
+      border: 2px solid #009688;
+      background: transparent;
+      color: #fff;
+      cursor: pointer;
+      position: relative;
+      overflow: hidden;
+  }
+  
+  button1{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 10px 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #009688;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  button a{
+      text-decoration: none;
+      color: #fff;
+      text-transform: uppercase;
+  }
+  
+  span{
+      background: #009688;
+      height: 100%;
+      width: 0;
+      border-radius: 25px;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      z-index: -1;
+      transition: 0.5s;
+  }
+  
+  button:hover span{
+      width: 100%;
+  }
+  
+  .footer__container{
+      position:fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background:white;
+      color: white;
+      text-align: center;
+      opacity: 0.5;
+  }
+  
+    .team-member {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      margin: 20px 0;
+      color: #fff;
+      padding: 50px;
+    }
+    
+    .team-member img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+    
+    .team-member h3 {
+      margin: 5;
+    }
+    
+    .members {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      padding: 10px;
+    }
+    
+    .members1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      padding: 10px;
+    }
+  
+    .theteam{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+      color: #fff;
+      font-size: 15px;
+    }
+  
+      .fcontent{
+      width: 100%;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-600%);
+      text-align: center;
+      color: #fff;
+    }
+  
+    .food{
+      width: 490px;
+      height: 490px;
+      border-radius: 50px;
+      position: relative;
+    }
+  
+    .month{
+      color: #fff;
+      text-align: center;
+    }
+  
+    .contact{
+      font-size: 40px;
+      width: 35%;
+      height: 8%;
+      padding-top: 25px;
+      margin: auto;
+      text-align: center;
+      color: #fff;
+    }
+    .mail{
+      width: 70%;
+      height: 55%;
+      background-color: gray;
+      margin: auto;
+    }
+  
+    .inmail{
+      text-align: left;
+      padding: 20px;
+      font-size: 20px;
+     align-self: start;
+    }
+  
+    .menuM{
+     margin-top: 10px;
+    }
+  
+    .menu{
+      margin-top: 5px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    
+    .menu2{
+      margin-top: 5px;
+      color: #fff;
+      text-align: center;
+    }
+  
+    .center{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 400px;
+      border-radius: 50px;
+    }
+  
+    .center h1{
+      text-align: center;
+      padding: 0 0 20px 0;
+      border-bottom: 1px solid #009688;
+    }
+  
+    .center form{
+      padding: 0 40px;
+      box-sizing: border-box;
+    }
+  
+    form .txt_field{
+      position: relative;
+      border-bottom: 2px solid white;
+      margin: 30px 0;
+    }
+  
+    .txt_field input{
+      width: 100%;
+      padding: 0 5px;
+      height: 40px;
+      font-size: 16px;
+      border: none;
+      background: none;
+      outline: none;
+    }
+  
+    .txt_field label{
+      position: absolute;
+      top: 50%;
+      left: 5px;
+      color: gray;
+      transform: translateY(-50%);
+      font-size: 16px;
+      pointer-events: none;
+      transition: .5s;
+    }
+  
+    .txt_field span::before{
+      content: '';
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 0%;
+      height: 2px;
+      background: #fff;
+      transition: .5s;
+    }
+  
+    .txt_field input:focus ~ label,
+    .txt_field input:valid ~ label{
+      top: -5px;
+      color: white;
+    }
+  
+    .txt_field input:focus ~ span::before,
+    .txt_field input:valid ~ span::before{
+      width: 100%;
+    }
+  
+    .pass{
+      margin: -5px 0 20px 5px;
+      color: #009688;
+      cursor: pointer;
+    }
+  
+    .pass:hover{
+      text-decoration: underline;
+    }
+  
+    input[type="submit"]{
+      margin-top: 15px;
+      width: 100%;
+      height: 50px;
+      border: 1px solid;
+      background-color: #009688;
+      border-radius: 25px;
+      font-size: 18px;
+      color: #fff;
+      font-weight: 700;
+      cursor: pointer;
+      outline: none;
+    }
+  
+    input[type="submit"]:hover{
+      border-color: #fff;
+      transition: .5s;
+    }
+  
+    .signup_link{
+      margin: 30px 0;
+      text-align: center;
+      font-size: 16px;
+      color:#fff;
+    }
+  
+    .signup_link a{
+      color: #fff;
+      text-decoration: none;
+    }
+  
+    .signup_link a:hover{
+      text-decoration: underline;
+    }
+  
+    textarea:focus, input:focus {
+      color: white;
+  }
+  
+  input, select, textarea{
+      color: white;
+  }
+  
+  input.custom-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid white;
+    border-radius: 4px;
+    outline: none;
+    background: none;
+  }
+  
+  input.custom-input:hover{
+    background-color: #009688;
+    transition: 0.5s;
+  }
+  
+  .vote{
+    margin-top: 10px;
+  }
+  
+  .popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  
+  .popup:hover{
+    background: #009688;
+  }
+  
+  .popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+  
+  .popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  .popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s
+  }
+  
+  @-webkit-keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+  }
+  
+  @keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+  }
